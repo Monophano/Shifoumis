@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "mode.h"
+#include "Mode.h"
 
 // joueur contre bot
 void player_vs_bot(void)
