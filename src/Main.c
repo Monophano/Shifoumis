@@ -1,11 +1,12 @@
 #include <stdio.h>
+#include "mode.h"
 
 int main(int argc, char **argv)
 {
     int choix_mode;
 
     printf("Bienvenue dans le jeu Shifoumis\n");
-    printf("Choisissez le mode de jeu que désirer :\n");
+    printf("Choisissez le mode de jeu que desirer :\n");
     printf("    1 - Humain vs Bot\n");
     printf("    2 - Bot vs Bot\n");
 
@@ -13,11 +14,11 @@ int main(int argc, char **argv)
 
     if (choix_mode == 1)
     {
-        printf("Ratio\n");
+        player_vs_bot();
     }
     else if (choix_mode == 2)
     {
-        printf("Yolo\n");
+        bot_vs_bot();
     }
 
     return 0;
