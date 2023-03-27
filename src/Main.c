@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "mode.h"
+#include "Mode.h"
 
 int main(int argc, char **argv)
 {
