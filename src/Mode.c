@@ -126,13 +126,6 @@ void bot_vs_bot(void)
 	int point_bot_un = 0;
 	int point_bot_deux = 0;	
 
-	// affichage des possibilités du joueur
-	printf("Bienvenue sur le mode de jeu player vs bot \n");
-	printf("Action du jeu : \n");
-	printf("	1 - Pierre \n");
-	printf("	2 - Feuille \n");
-	printf("	3 - Ciseaux \n");
-
 	// game loop
 	while (round != 0)
 	{	
