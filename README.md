@@ -11,4 +11,15 @@ Ce jeu reprend les codes du shifoumis classique, il permet de jouer contre un bo
   - Bot vs Bot
 
 ### Gameplay
-Le Gameplay du premier mod est assez classique
+Le Gameplay du premier mod est assez classique, il s'agit de jouer contre un bot qui choisi aléatoirement entre les différentes actions proposés par le jeu
+
+Le Gameplay proposés par le second mod de jeu consiste en 2 bot jouant l'un contre l'autre.
+
+## Télechargement
+Le jeu est adapté au processeur 32 et 64 bits
+
+Pour jouer, il suffit d'installer et lancé le fichier "shifoumis.exe"
+
+* https://github.com/Monophano/Shifoumis/blob/main/shifoumis.exe
+
+Attention, si le jeu ne se lance pas, installer les dll de mingw
