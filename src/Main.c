@@ -12,14 +12,8 @@ int main(int argc, char **argv)
 
     scanf("%d", &choix_mode);
 
-    if (choix_mode == 1)
-    {
-        player_vs_bot();
-    }
-    else if (choix_mode == 2)
-    {
-        bot_vs_bot();
-    }
+    if (choix_mode == 1) player_vs_bot();
+    else if (choix_mode == 2) bot_vs_bot();
 
     return 0;
 }
